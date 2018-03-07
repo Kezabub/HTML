@@ -1,0 +1,133 @@
+﻿<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Survey</title>
+    <link href="styleSheet.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript">
+        function setupFormValidation() {
+            $("#Survey").validate({
+                rules: {
+                    role: {
+                        required: true
+                    },
+                    useful: {
+                        required: true
+                    },
+                    why: {
+                        required: true
+                    },
+                    uses: {
+                        required: true
+                    },
+                },
+                messages: {
+                    favourite: "Please select your role",
+                    useful: "Please select whether the website was useful or not",
+                    why: "Please tell us why",
+                    uses: "Please state what you used the website for",
+                },
+                submitHandler: function(form) {
+                    form.submit();
+                }
+            });
+        }
+        $(document).ready(function($) {
+            setupFormValidation();
+        });
+    </script>
+</head>
+
+<body>
+    <div id="page">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a>
+                    <ul>
+                        <a href="login.html">Staff Page</a>
+                    </ul>
+                </li>
+                <li><a href="careers.html">Careers</a>
+                    <ul>
+                        <li><a href="careersandapps.html">Search Careers</a>
+                        </li>
+			<li><a href="popular.php">Popular Searches</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a>
+                </li>
+                <li><a href="contactus.html">Contact</a>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a>
+                        </li>
+                        <li><a href="#">Survey</a>
+                        </li>
+                    </ul>
+                </li>
+        </nav>
+        <header>
+            <h1>Survey Form</h1>
+            <section class="banner">
+            </section>
+            <br>
+        </header>
+
+        <section class="surveypage">
+            <p>Please fill out this quick survey to help improve the website</p>
+            <form id="Survey" action="processInput2.php" method="post">
+                <label for="role" class="textLabel">Please choose the role that applies most to you:</label>
+                <br>
+                <br>
+                <select name="role">
+                    <option value="Student">Student</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="CareersAdvisor">Careers Advisor</option>
+                </select>
+                <br>
+                <br>
+                <label for="useful" class="textLabel">was the website useful?:</label>
+                <br>
+                <br>
+                <input type="radio" name="useful" value="yes" checked> Yes
+                <br>
+                <input type="radio" name="useful" value="no"> No
+                <br>
+                <br>
+                <br>
+                <label for="why" class="textLabel">Why?:</label>
+                <br>
+                <br>
+                <textarea rows="4" name="why" cols="50" required>
+                </textarea>
+                <br>
+                <br>
+                <label for="uses" class="textLabel">What did you use the website for?:</label>
+                <br>
+                <br>
+                <input type="checkbox" name="uses[]" value="Information " checked> Information
+                <br>
+                <input type="checkbox" name="uses[]" value="Careers "> Careers
+                <br>
+                <input type="checkbox" name="uses[]" value="Contacting Staff "> Contacting Staff
+                <br>
+                <input type="checkbox" name="uses[]" value="None of the Above "> None of the above
+                <br>
+                <br>
+                <br>
+                <label for="comments" class="textLabel">Additional Comments ?:</label>
+                <br>
+                <br>
+                <textarea rows="4" name="comments" cols="50" required>
+                </textarea>
+                <br>
+                <br>
+                <input type="submit" name="submit" id="submit" value="Submit" />
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>

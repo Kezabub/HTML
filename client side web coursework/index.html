@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Personal Learning Area</title>
+      <!--Theme Provided at https://startbootstrap.com/template-overviews/grayscale/ -->
+      <!-- Bootstrap core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+      <!-- Custom fonts for this template -->
+      <link href="vendor/font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+      <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+      <!-- Custom styles for this template -->
+      <link href="css/grayscale.css" rel="stylesheet">
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+      <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <script src="vendor/bootstrap/js/bootstrap.bundle.js"></script>
+      <!-- Plugin JavaScript -->
+      <script src="vendor/jquery-easing/jquery.easing.js"></script>
+      <!-- loads the filesaver library -->
+      <script src="vendor/FileSaver/FileSaver.js"></script>
+      <!-- loads in the required stylesheets and libraries for unite gallery -->
+      <script src='vendor/unitegallery/dist/js/unitegallery.js'></script>
+      <link rel='stylesheet' href='vendor/unitegallery/dist/css/unite-gallery.css' type='text/css' />
+      <script src='vendor/unitegallery/dist/themes/default/ug-theme-default.js'></script>
+      <link rel='stylesheet' href='vendor/unitegallery/dist/themes/default/ug-theme-default.css' type='text/css' />
+      <script src='vendor/unitegallery/dist/themes/video/ug-theme-video.js'></script>
+      <link rel='stylesheet' href='vendor/unitegallery/dist/themes/video/ug-theme-video.css' type='text/css' />
+      <link  href='vendor/unitegallery/dist/themes/video/skin-right-thumb.css' rel='stylesheet' type='text/css' />
+      <!-- Google Maps API Key -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASk2frw_5fUq_N4K79qdIgbX8DaOZlFcI"></script>
+      <!-- Creates the clock on the navbar -->
+      <script>
+         function startTime() {
+         var today = new Date();
+         var hours = today.getHours(); //represents hours
+         var minutes = today.getMinutes(); //represents minutes
+         var seconds = today.getSeconds(); //represents seconds
+         minutes = checkTime(minutes); //checks the minutes so they can be updated accurately
+         seconds = checkTime(seconds); // checks the minutes so they can be updated accurately
+         document.getElementById('txt').innerHTML =
+         hours + ":" + minutes + ":" + seconds; //creates the digital clock
+         var time = setTimeout(startTime, 500);
+         }
+         function checkTime(i) {
+         if (i < 10) {i = "0" + i};  //this if statement will add a zero to numbers less than 10
+         return i;
+         }
+      </script>
+   </head>
+   <body id="page-top" onload="startTime();">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+         <div class="container">
+            <a class="navbar-brand js-scroll-trigger history" href="#page-top">Jump to Top</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+               <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger history" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger history" href="#download">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger history" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger history" href="#download">Login</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link js-scroll-trigger" id="txt" href=""></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Intro Header -->
+      <header class="masthead">
+         <div class="intro-body">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-8 mx-auto">
+
+                     <h1 class="brand-heading">Personal Learning Area</h1>
+                     <p class="intro-text">This website is where I document my personal web development learning
+                        <br>Theme by Start Bootstrap.
+                     </p>
+                     <a href="#about" class="btn btn-circle js-scroll-trigger">
+                     <i class="fa fa-angle-double-down animated"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- About Section -->
+      <section id="about" class="content-section text-center">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 mx-auto">
+                  <h2>About the Website</h2>
+                  <p>This website is a place for users to document and store their personal web development progress and achievements. The theme can be downloaded from
+                     <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.
+                  </p>
+                  <p>This theme features stock photos by
+                     <a href="http://gratisography.com/">Gratisography</a>
+                     along with a custom Google Maps skin courtesy of
+                     <a href="http://snazzymaps.com/">Snazzy Maps</a>.
+                  </p>
+                  <p>We hope you find this website useful in the development and progress of your web development skills</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Download Section -->
+      <section id="download" class="download-section content-section text-center">
+         <div class="container">
+            <div class="col-lg-8 mx-auto" id="portfolio">
+               <h2>Learning Zone</h2>
+               <p>Admins can add items to the learning zone here or all users can view the content using the buttons below</p>
+               <a href="#loginpopup" class="btn btn-default btn-lg history" id="adminlogin">Admin Login</a>
+               <div id="loginpopup" class="modalDialog">
+                  <div>
+                     <a href="#close" title="Close" class="close">X</a>
+                     <h2>Login</h2>
+                     <form id="LoginSys" action="passwordchecker.php" method="post" target="frame">
+                     <input class="form control" name="username" type="text" id="username" placeholder="Please enter the username..." required>
+                     <input class="form control" name="password" type="text" id="password" placeholder="Please enter the password..." required>
+                     <br>
+                     <button class="btn btn-sm btn-success" id="loginbtn">Login!</button>
+                   </form>
+                  </div>
+                </div>
+               <a href="#AddItems" class="btn btn-default btn-lg history" id="additems" style="display:none" >Add item</a>
+               <div id="AddItems" class="modalDialog">
+                  <div>
+                     <a href="#close" title="Close" class="close">X</a>
+                     <div class="container">
+                        <!-- Saving text -->
+                        <div class="row">
+                           <div class="col-sm-12">
+                              <section id="save-text">
+                                 <h2>Saving Text</h2>
+                                 <form onsubmit="return saveFile(this, $('#fname').val(), $('#textInput').val(), 'text/plain;charset=utf-8')">
+                                    <span class="loadblock" class="pull-right">
+                                    <span class="file-details"></span><input type="file" id="previewtext" name="previewtext" />
+                                    </span>
+                                    <textarea class="input form-control" id="textInput" rows="5" placeholder="Type some text here, then enter a file name and click &quot;Save&quot;."></textarea>
+                                    <br>
+                                    <div>
+                                       <span class="saveblock" class="pull-right">
+                                       <input id="fname" type="text" placeholder="filename"></input><span>.txt</span>
+                                       <button class="btn btn-sm btn-success" type="submit" role="button">Save</button>
+                                       </span>
+                                    </div>
+                                 </form>
+                              </section>
+                           </div>
+                        </div>
+                        <!-- Saving HTML -->
+                        <div class="row">
+                           <div class="col-sm-12">
+                              <section id="save-html">
+                                 <h2>Saving HTML</h2>
+                                 <form onsubmit="return saveFile(this, $('#fname-html').val(), $('#htmlInput').html(), 'text/html;charset=utf-8')">
+                                    <div class="loadblock" class="pull-right">
+                                       <span class="file-details"></span><input type="file" id="previewhtml" name="previewhtml" />
+                                    </div>
+                                    <textarea class="input form-control" id="htmlInput" rows="5" placeholder="Type some text here, then enter a file name and click &quot;Save&quot;."></textarea>
+                                    <br>
+                                    <div class="saveblock" class="pull-right">
+                                       <input id="fname-html" type="text" placeholder="filename"></input><span>.html</span>
+                                       <button class="btn btn-sm btn-success" type="submit" role="button">Save</button>
+                                 </form>
+                              </section>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a href="#previewimage" class="btn btn-default btn-lg history">Preview Image</a>
+               <div id="previewimage" class="modalDialog">
+                  <div>
+                     <a href="#close" title="Close" class="close">X</a>
+                     <h2>Preview A Photo</h2>
+                     <input type="file" id="photopreview">
+                     <div id="preview" >
+                        <!--preview image will be displayed here-->
+                     </div>
+                     <div id="data" class="large-8 columns">
+                        <h2 id="name"></h2>
+                        <p id="size"></p>
+                        <p id="type"></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a href="#previewvideo" class="btn btn-default btn-lg history">Preview Video</a>
+            <div id="previewvideo" class="modalDialog">
+               <div>
+                  <a href="#close" title="Close" class="close">X</a>
+                  <h2>Preview A Video</h2>
+                  <input type="file" id="videopreview">
+                  <div id="vid-data" class="large-8 columns">
+                     <!--video will be inserted here.-->
+                  </div>
+                  <h2 id="vid-name"></h2>
+                  <p id="vid-size"></p>
+                  <p id="vid-type"></p>
+               </div>
+               </div>
+            </div>
+         </div>
+         </div>
+         <a href="#todolist" class="btn btn-default btn-lg history">Todo List</a>
+         <div id="todolist" class="modalDialog">
+            <div>
+               <a href="#close" title="Close" class="close">X</a>
+               <div class="container">
+                  <p>
+                     <label for="new-task">Add Item</label><input id="new-task" type="text"><button onclick="displayResult()" id="#addbutton">Add</button>
+                  </p>
+                  <h3>Todo</h3>
+                  <ul id="incomplete-tasks">
+                     <li><input type="checkbox"><label>Add PHP support once coursework is submitted</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+                     <li><input type="checkbox"><label>Learn more about web development</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+                  </ul>
+                  <h3>Completed</h3>
+                  <ul id="completed-tasks">
+                     <li><input type="checkbox" checked><label>Complete the Website</label><input type="text"><button class="edit">Edit</button><button class="delete">Delete</button></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <a href="#gallery" class="btn btn-default btn-lg history" id="ViewItems">View items</a>
+         </div>
+         </div>
+      </section>
+      <!-- Contact Section -->
+      <section id="contact" class="content-section text-center">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-8 mx-auto">
+                  <div id="buttonsthathidestuff">
+                  </div>
+                  <br>
+                  <div id="gallery" style="display:none;">
+                  </div>
+                  <div id="videogallery" style="display:none;">
+                  </div>
+                  <br>
+                  <input type="text" id="filesearch" placeholder="Search for files.." style="display:none">
+                <br>
+                  <div id="filestable">
+                  </div>
+                  <iframe name="pdfviewer" id="pdfviewer" style="display:none; frameborder="1" scrolling="auto" height="1100" width="850"">
+                  </iframe>
+                  <br>
+                  <a href="#startquiz" class="btn btn-default btn-lg history" style="display:none" id="startquiz">Start Quiz</a>
+                  <div id="quiz">
+                  </div>
+                  <a href="#hidequiz" class="btn btn-default btn-lg history" style="display:none" id="hidequiz">Hide Quiz</a>
+                  <h2>Contact Me</h2>
+                  <p>The theme creators can be contacted by leaving a comment on the
+                     <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale template overview page</a>
+                     on Start Bootstrap!
+                  </p>
+                  <p>I can be contacted via the links below.</p>
+                  <ul class="list-inline banner-social-buttons">
+                     <li class="list-inline-item">
+                        <a href="https://twitter.com/kezanub" class="btn btn-default btn-lg">
+                        <i class="fa fa-twitter fa-fw"></i>
+                        <span class="network-name">Twitter</span>
+                        </a>
+                     </li>
+                     <li class="list-inline-item">
+                        <a href="https://github.com/Kezanub" class="btn btn-default btn-lg">
+                        <i class="fa fa-github fa-fw"></i>
+                        <span class="network-name">Github</span>
+                        </a>
+                     </li>
+                     <li class="list-inline-item">
+                        <a href="https://plus.google.com/b/112488236904563217851/112488236904563217851" class="btn btn-default btn-lg">
+                        <i class="fa fa-google-plus fa-fw"></i>
+                        <span class="network-name">Google+</span>
+                        </a>
+                     </li>
+                     <div>
+                    <iframe src="https://www.designbyhumans.com/shop/MightyMouse/?gclid=EAIaIQobChMIjbyqw9Ob2AIVCo0bCh1aAgyfEAAYASAAEgKFBPD_BwE" height="315" width="560" allowfullscreen="" frameborder="0">
+                    </iframe>
+                  </div>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Map Section -->
+      <div id="map"></div>
+      <iframe name="frame" style="display:none">
+      </iframe>
+      <div id="welcome" title="Welcome User" style="display:none">
+      <p style="font-size:75%">Welcome user, this website is a personal learning area developed for the CSWD coursework at GCU.
+         If you are using the website I assume you have read the instructions document that came packed with the website.
+      This and all other dialogue popup can be closed by press to the right of the heading.</p>
+      </div>
+      <div id="logininfo" title="Login Admin" style="display:none">
+      <p style="font-size:75%">Cannont be submitted unless the username and password both contain 5 characters,
+      if the correct username and password is entered the admin can add files. If not you are asked to login again</p>
+      </div>
+      <div id="additeminfo" title="Adding Items" style="display:none">
+      <p style="font-size:75%">Admins can use this area to edit and save new items.
+         To have saved items be displayed make sure to save them to the userstuff folder in the appropriate sub folder</p>
+      </div>
+      <div id="viewiteminfo" title="Viewing Items" style="display:none">
+      <p style="font-size:75%">Items and the controls to display them have been displayed below enjoy!</p>
+      </div>
+      <!-- Footer -->
+      <footer>
+         <div class="container text-center">
+            <p>Copyright &copy; PLA 2017</p>
+         </div>
+      </footer>
+      <!-- Custom scripts for this template -->
+      <script src="js/grayscale.js"></script>
+      <!-- script used to save text and html files -->
+      <script src="js/savetext.js"></script>
+      <!-- script used with the todo list-->
+      <script src="js/todo.js"></script>
+      <!-- allows user to preview images or videos in the browser -->
+      <script src="js/previewimagevideo.js"></script>
+      <!-- script used to upload user inserted files onto the website to upload files place them in their respective folders at the below directory -->
+      <!-- C:\xampp\htdocs\client side web coursework\files\userstuff\ -->
+      <script src="js/loadfiles.js"></script>
+      <!-- script that handles utility events like popup messages -->
+      <script src="js/utility.js"></script>
+      <script src="js/quiz.js"></script>
+   </body>
+</html>

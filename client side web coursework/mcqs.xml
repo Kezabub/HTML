@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mcqs>
+    <description>Collection of JavaScript multiple choice questions</description>
+    <![CDATA[<br />]]>
+    <![CDATA[<br />]]>
+    <author>
+        <firstname>Jane</firstname>
+        <surname>Doe</surname>
+    </author>
+    <![CDATA[<br />]]>
+    <![CDATA[<br />]]>
+    <mcq>
+        <question>
+            Choose one of the following that best describes what JavaScript is.
+        </question>
+        <![CDATA[<br />]]>
+        <options>
+          <![CDATA[<br />]]>
+            <option>Application framework</option>
+            <![CDATA[<br />]]>
+            <option>4GL language</option>
+            <![CDATA[<br />]]>
+            <option>Scripting language</option>
+            <![CDATA[<br />]]>
+            <option>None of the above</option>
+            <![CDATA[<br />]]>
+        </options>
+        <![CDATA[<br />]]>
+        <answer>3</answer>
+    </mcq>
+    <![CDATA[<br />]]>
+    <![CDATA[<br />]]>
+    <mcq>
+        <question>
+            Which Design Pattern has the Intent of providing a way to access the elements of an object sequentially without exposing its underlying representation?
+        </question>
+        <![CDATA[<br />]]>
+        <options>
+          <![CDATA[<br />]]>
+            <option>Factory</option>
+            <![CDATA[<br />]]>
+            <option>Iterator</option>
+            <![CDATA[<br />]]>
+            <option>Abstract Factory</option>
+            <![CDATA[<br />]]>
+            <option>Proxy</option>
+            <![CDATA[<br />]]>
+        </options>
+        <![CDATA[<br />]]>
+        <answer>2</answer>
+    </mcq>
+    <![CDATA[<br />]]>
+    <![CDATA[<br />]]>
+    <mcq>
+        <question>
+            The following elements header, footer, article, section are the new elements in HTML5. These elements are called
+        </question>
+        <![CDATA[<br />]]>
+        <options>
+          <![CDATA[<br />]]>
+            <option>Semantic elements</option>
+            <![CDATA[<br />]]>
+            <option>Formatting elements</option>
+            <![CDATA[<br />]]>
+            <option>Control elements</option>
+            <![CDATA[<br />]]>
+            <option>Page elements</option>
+            <![CDATA[<br />]]>
+        </options>
+        <![CDATA[<br />]]>
+        <answer>1</answer>
+    </mcq>
+    <![CDATA[<br />]]>
+    <![CDATA[<br />]]>
+    <mcq>
+        <question>
+            The primary purpose of the array map() function is that it
+        </question>
+        <![CDATA[<br />]]>
+        <options>
+          <![CDATA[<br />]]>
+            <option>maps the elements of another array into itself</option>
+            <![CDATA[<br />]]>
+            <option>passes each element of the array and returns the necessary mapped elements</option>
+            <![CDATA[<br />]]>
+            <option>passes each element of the array on which it is invoked to the function you specify, and returns an array containing the values returned by that function</option>
+            <![CDATA[<br />]]>
+            <option>Allows geoLocation api to work correctly</option>
+            <![CDATA[<br />]]>
+        </options>
+        <![CDATA[<br />]]>
+        <answer>3</answer>
+        <![CDATA[<br />]]>
+    </mcq>
+</mcqs>

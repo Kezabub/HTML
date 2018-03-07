@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Form</title>
+    <link href="styleSheet.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        function setupFormValidation() {
+            $("#contactForm").validate({
+                rules: {
+                    first: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    }
+                },
+                messages: {
+                    first: "Please enter your firstname",
+                    email: "Please enter a valid email address"
+
+                },
+                submitHandler: function(form) {
+                    form.submit();
+                }
+            });
+        }
+        $(document).ready(function($) {
+            setupFormValidation();
+        });
+    </script>
+</head>
+
+<body>
+    <div id="page">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home Page</a>
+                    <ul>
+                        <a href="login.html">Staff Page</a>
+                    </ul>
+                </li>
+                <li><a href="careers.html">Careers</a>
+                    <ul>
+                        <li><a href="careersandapps.html">Search Careers</a>
+                        </li>
+			<li><a href="popular.php">Popular Searches</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a>
+                </li>
+                <li><a href="contactus.html">Contact</a>
+                    <ul>
+                        <li><a href="#">Contact Us</a>
+                        </li>
+                        <li><a href="survey.html">Survey</a>
+                        </li>
+                    </ul>
+                </li>
+        </nav>
+        <header>
+            <h1>Contact Form</h1>
+            <section class="banner">
+            </section>
+            <br>
+        </header>
+        <section class="form">
+            <p> Enter your name and contact details and we'll get in touch with you as soon as possible. </p>
+            <form id="contactForm" action="processInput.php" method="post">
+                <p>
+                    <label for="first" class="textLabel">Enter your first name:</label>
+                </p>
+                <p>
+                    <input type="text" name="first" id="first" required/>
+                </p>
+                <p>
+                    <label for="second" class="textLabel">Enter your second name:</label>
+                </p>
+                <p>
+                    <input type="text" name="second" id="second" required/>
+                </p>
+                <p>
+                    <label for="email" class="textLabel">Enter your email:</label>
+                </p>
+                <p>
+                    <input type="email" name="email" id="email" required/>
+                </p>
+                <p>
+                    <label for="message" class="textLabel">Message:</label>
+                </p>
+                <p>
+                    <textarea rows="4" name="message" cols="50">
+                    </textarea>
+                </p>
+                <p>
+                    <input type="submit" name="submit" id="submit" value="Submit" />
+                </p>
+            </form>
+        </section>
+    </div>
+</body>
+
+</html>

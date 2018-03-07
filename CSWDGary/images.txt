@@ -1,0 +1,33 @@
+<img alt="SPA Slide 1" src="http://localhost/CSWDGary/img/SPA1.JPG"
+     data-image="http://localhost/CSWDGary/img/SPA1.JPG"
+     data-description="Slide 1">
+<img alt="SPA Slide 2" src="http://localhost/CSWDGary/img/SPA2.JPG"
+     data-image="http://localhost/CSWDGary/img/SPA2.JPG"
+     data-description="Slide 2">
+<img alt="SPA Slide 3" src="http://localhost/CSWDGary/img/SPA3.JPG"
+     data-image="http://localhost/CSWDGary/img/SPA3.JPG"
+     data-description="Slide 3">
+<img alt="SPA Slide 4" src="http://localhost/CSWDGary/img/SPA4.JPG"
+     data-image="http://localhost/CSWDGary/img/SPA4.JPG"
+     data-description="Slide 4">
+<img alt="SPA Slide 5" src="http://localhost/CSWDGary/img/SPA5.JPG"
+     data-image="http://localhost/CSWDGary/img/SPA5.JPG"
+     data-description="Slide 5">
+<img alt="SPA Slide 6" src="http://localhost/CSWDGary/img/SPA6.JPG"
+     data-image="http://localhost/CSWDGary/img/SPA6.JPG"
+     data-description="Slide 6">
+<img alt="SPA Slide 7" src="http://localhost/CSWDGary/img/SPA7.JPG"
+     data-image="http://localhost/CSWDGary/img/SPA7.JPG"
+     data-description="Slide 7">
+<img alt="SPA Slide 8" src="http://localhost/CSWDGary/img/SPA8.JPG"
+     data-image="http://localhost/CSWDGary/img/SPA8.JPG"
+     data-description="Slide 8">
+<img alt="SPA Slide 9" src="http://localhost/CSWDGary/img/SPA9.JPG"
+     data-image="http://localhost/CSWDGary/img/SPA9.JPG"
+     data-description="Slide 9">
+<img alt="SPA Slide 10" src="http://localhost/CSWDGary/img/SPA10.JPG"
+     data-image="http://localhost/CSWDGary/img/SPA10.JPG"
+     data-description="Slide 10">
+<img alt="SPA Slide 11" src="http://localhost/CSWDGary/img/SPA11.JPG"
+     data-image="http://localhost/CSWDGary/img/SPA11.JPG"
+     data-description="Slide 11">

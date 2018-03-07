@@ -1,0 +1,138 @@
+<img alt="SPA Slide 1" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA1.JPG"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA1.JPG"
+     data-description="Single Page Application Slide 1">
+<img alt="SPA Slide 2" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA2.JPG"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA2.JPG"
+     data-description="Single Page Application Slide 2">
+<img alt="SPA Slide 3" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA3.JPG"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA3.JPG"
+     data-description="Single Page Application Slide 3">
+<img alt="SPA Slide 4" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA4.JPG"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA4.JPG"
+     data-description="Single Page Application Slide 4">
+<img alt="SPA Slide 5" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA5.JPG"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA5.JPG"
+     data-description="Single Page Application Slide 5">
+<img alt="SPA Slide 6" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA6.JPG"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA6.JPG"
+     data-description="Single Page Application Slide 6">
+<img alt="SPA Slide 7" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA7.JPG"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA7.JPG"
+     data-description="Single Page Application Slide 7">
+<img alt="SPA Slide 8" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA8.JPG"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA8.JPG"
+     data-description="Single Page Application Slide 8">
+<img alt="SPA Slide 9" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA9.JPG"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA9.JPG"
+     data-description="Single Page Application Slide 9">
+<img alt="SPA Slide 10" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA10.JPG"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA10.JPG"
+     data-description="Single Page Application Slide 10">
+<img alt="SPA Slide 11" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA11.JPG"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/SPA11.JPG"
+     data-description="Single Page Application Slide 11">
+<img alt="Web Nature" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/webnature.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/webnature.png"
+     data-description="Shows the general nature of a website">
+<img alt="Arrays" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/arrays.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/arrays.png"
+     data-description="Shows a few ways to set up a simple array">
+<img alt="Constructors" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/constructor.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/constructor.png"
+     data-description="Shows the creation of a constructor">
+<img alt="Control Statement" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/controlstatements.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/controlstatements.png"
+     data-description="Describes control statements">
+<img alt="Document Object Model (DOM)" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/DOM.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/DOM.png"
+     data-description="Shows the structure of the DOM">
+<img alt="Event Driven javascript" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/event-driven.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/event-driven.png"
+     data-description="Shows the event driven nature of javascript">
+<img alt="Functions" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/functions.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/functions.png"
+     data-description="Simple functions example">
+<img alt="Object Creation" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/objectcreation.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/objectcreation.png"
+     data-description="Shows the creation of a object in this case dog">
+<img alt="Switch Selection" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/switchselection.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/switchselection.png"
+     data-description="Showcases how a switch statement works">
+<img alt="HTML History" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/htmlhistory.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/htmlhistory.png"
+     data-description="The History of HTML">
+<img alt="HTML5 Elements" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/html5elements.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/html5elements.png"
+     data-description="Shows some of the HTML5 elements">
+<img alt="HTML5 Structure" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/html5structure.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/html5structure.png"
+     data-description="Basic structure of an html5 webpage">
+<img alt="CSS3 Overview" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/css3overview.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/css3overview.png"
+     data-description="Overview of CSS3">
+<img alt="CSS3 Examples" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/css3Example.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/css3Example.png"
+     data-description="Showcases what is possible with CSS3 in a wonderful way">
+<img alt="HTML5 DOM Tree" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/HTML5Dom.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/HTML5Dom.png"
+     data-description="Another Dom tree this one represents a HTML5 website">
+<img alt="HTML5 Visual Structure" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/visualstructure.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/visualstructure.png"
+     data-description="Visually shows the structure of an HTML5 page">
+<img alt="HTML5 Video Support" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/html5videosupport.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/html5videosupport.png"
+     data-description="Shows the support of HTML5 video elements in modern browsers">
+<img alt="Video Code example" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/videocode.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/videocode.png"
+     data-description="Shows how to simply reference and as result display videos on your webpage">
+<img alt="HTML5 Video Attributes" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/videoattributes.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/videoattributes.png"
+     data-description="Shows a list of all HTML5 video attributes">
+<img alt="HTML5 Audio Support" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/html5audiosupport.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/html5audiosupport.png"
+     data-description="Shows the support of HTML5 audio elements in modern browsers">
+<img alt="Audio Code example" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/audiocode.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/audiocode.png"
+     data-description="Shows how to simply reference and as result display audio on your webpage">
+<img alt="HTML5 Audio Attributes" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/audioattributes.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/audioattributes.png"
+     data-description="Shows a list of all HTML5 audio attributes">
+<img alt="HTML5 Canvas" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/drawablecanvas.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/drawablecanvas.png"
+     data-description="Shows javascript code that makes canvases drawable by the user">
+<img alt="Local Storage" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/localstorage.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/localstorage.png"
+     data-description="Shows a use for localstorage">
+<img alt="HTML5 new input types" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/newinputs.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/newinputs.png"
+     data-description="Shows a list of the new html5 input types">
+<img alt="HTML5 Input Support" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/inputsupport.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/inputsupport.png"
+     data-description="Shows the support of HTML5 input types in modern browsers">
+<img alt="HTML5 Input: Number Attributes" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/numberattributes.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/numberattributes.png"
+     data-description="Shows a list of all the number input types attributes">
+<img alt="HTML5 Input: Form Attributes" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/formattributes.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/formattributes.png"
+     data-description="Shows a list of all the form input types attributes">
+<img alt="HTML5 Input: Form Support" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/formsupport.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/formsupport.png"
+     data-description="Shows the support of HTML5 form elements in modern browsers">
+<img alt="Geolocation" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/geolocation.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/geolocation.png"
+     data-description="Simple geolocation code sample">
+<img alt="DOM XML Code" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/domxml.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/domxml.png"
+     data-description="Shows some simple XML DOM code">
+<img alt="DOM XML Tree" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/DOMXMLTree.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/DOMXMLTree.png"
+     data-description="Shows the tree structure of XML DOM">
+<img alt="DOM Example" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/domexamplecode.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/domexamplecode.png"
+     data-description="Shows some example code interacting with the DOM">
+<img alt="DOM Elements" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/DOMelement.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/DOMelement.png"
+     data-description="Shows some example code interacting with DOM Elements">
+<img alt="AJAX" src="http://localhost/client%20side%20web%20coursework/files/gallerystuff/ajax.png"
+     data-image="http://localhost/client%20side%20web%20coursework/files/gallerystuff/ajax.png"
+     data-description="Visual representation of AJAX">

@@ -1,0 +1,13 @@
+<script src="js/todo.js"></script>
+<div class="container">
+ <h2>Todo List</h2>
+ <p><em>Click and drag to reorder, double click to cross an item off.</em></p>
+
+ <form name="toDoList">
+   <input type="text" name="ListItem"/>
+ </form>
+
+ <div class="btn btn-outline-dark" id="button">Add</div>
+ <br/>
+ <ol></ol>
+ </div>

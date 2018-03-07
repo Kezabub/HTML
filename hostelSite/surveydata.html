@@ -1,0 +1,65 @@
+﻿<!DOCTYPE HTML>
+<html> 
+<head>
+   	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+<title>Hostel Homepage</title>
+<link href="styleSheet.css" rel="stylesheet" type="text/css">
+</head> 
+<body>
+<header>
+</header>
+<table id="chart">
+</table>
+<script>
+var data = {"summary":<?php echo $json ?>};
+    var element;
+    for (element in data.summary) {
+        var names = data.summary[element].name;
+        var values = data.summary[element].hits;
+
+        var node = document.createElement("tr");
+        var subnode1 = document.createElement("td"); 
+        var textnode1 = document.createTextNode(names);
+        var subnode2 = document.createElement("td"); 
+        var textnode2 = document.createTextNode(values);
+        var subnode3 = document.createElement("td"); 
+        var subsubnode = document.createElement("canvas");
+
+        subnode1.appendChild(textnode1);
+        subnode2.appendChild(textnode2);
+        subnode3.appendChild(subsubnode);
+
+        var att = document.createAttribute("id");
+        att.value = names;
+        subsubnode.setAttributeNode(att); 
+
+        var att2 = document.createAttribute("width");
+        att2.value = "800";
+        subsubnode.setAttributeNode(att2);
+
+        var att3 = document.createAttribute("height");
+        att3.value = "25";
+        subsubnode.setAttributeNode(att3);
+
+        node.appendChild(subnode1); 
+        node.appendChild(subnode2);
+        node.appendChild(subnode3);
+        document.getElementById("chart").appendChild(node);
+
+        var c=document.getElementById(i);
+        var bar=c.getContext("2d");
+        var length = values[i];
+        if (values[i] > 0) {
+        if (length > 100)
+            length = 100;
+        bar.fillStyle = "#ADD9EC";//"blue";
+        } 
+        bar.rect(1,1,10*length,20);
+        bar.fill();
+        bar.stroke()
+
+    }
+</script>
+</body> 
+</html>

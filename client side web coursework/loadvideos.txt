@@ -1,0 +1,4 @@
+<div data-type="youtube"
+					 data-videoid="xfGciVdbktI"
+					 data-title="What is a SPA"
+					 data-description="by SourceSeek"></div>

@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700);
+
+body { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; color: #555; margin: 0; padding: 0; background-color: #d3d3d3 }
+
+#page { overflow: hidden; max-width: 1200px; margin: 0 auto; position: relative; }
+#mobiledisplay { display: none; }
+
+a.btn {font-size: 1.2em; text-decoration: none; color: #fff; border: 1px solid #fff; padding: 4px 15px; transition: background-color .5s; }
+a.btn:hover { background-color: rgba(0,0,0,.3); }
+
+nav {
+	background-color: #595959;
+        position: absolute;
+        top: 0px; left 0px;
+        padding: 10px 0 0 0;
+        width: 100%;
+	z-index: 1 !important;
+    }
+
+
+
+nav ul { list-style: none; margin: 0; padding: 0px; }
+
+nav ul li:hover {background-color: #fff; color: #595959; }
+
+nav ul li:hover > ul { display: block; }
+
+nav ul li a { display: inline-block;
+              padding: 10px 20px;
+              text-decoration: none;
+              width: 125px;
+              position:relative;
+            } 
+
+nav > ul {margin: 0 auto; text-align: center; width: 100% }
+
+nav > ul > li { float: left; }
+
+nav > ul > li > a { width: auto; padding: 10px 20px 15px 15px }
+
+nav ul li a:hover {background-color: #fff; }
+
+nav ul ul { position: absolute; top: 100%; background-color:rgba(0,0,0,.65); display: none; }
+
+nav ul ul li { position: relative; }
+
+nav ul ul ul { left: 100%; top:0px; }
+
+
+h1 { margin: 2rem -16px 1.25rem 0; padding-bottom: 1.25rem; border-bottom: 5px solid; font-weight: 700; line-height: 1; text-shadow: 4px 4px 0px rgba(150, 150, 150, 0.5); }
+h2 { margin: 0 0 .5em 0; font-size: 1.6em; font-weight: 700; text-shadow: 4px 4px 0px rgba(150, 150, 150, 0.5); }
+h3 { margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700; text-shadow: 4px 4px 0px rgba(150, 150, 150, 0.5);}
+h4 { margin: 0 0 1.5em 0; font-size: 1em; font-weight: 700; text-shadow: 4px 4px 0px rgba(150, 150, 150, 0.5);}
+
+p { margin: 0 0 1em 0;}
+
+a { color: #007eff; }
+a:visited {color: #65b1ff; }
+
+section { padding: 0 30px; }
+
+section.main { background-color: #595959; padding-top: 30px; padding-bottom: 30px; padding-left: 5px; padding-right: 5px; color: #fff; box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75);}
+section.main article { padding: 0 20px 0 515px; background: url(images/index/books.jpg) no-repeat 0 5px; min-height:220px; }
+
+section.otherservices { background-color: #595959; padding-top: 30px; padding-bottom: 30px; padding-left: 5px; padding-right: 5px; color: #fff; box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75); }
+section.otherservices article { padding: 0 515px 0 20px; background:  url(images/index/mono-flag.png) no-repeat 0 5px; background-position: right; min-height:220px;}
+
+section.student { background-color: #595959; padding-top: 30px; padding-bottom: 30px; padding-left: 5px; padding-right: 5px; color: #fff; box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75); }
+section.student article { padding: 0 20px 0 515px; background: url(images/index/school.png) no-repeat 0 5px; min-height:220px; }
+
+
+header { height 430px; background: #d3d3d3; padding-top: 80px; text-align: center; color: #595959;  }
+section.banner { margin: 0 auto; width: 100%; padding-bottom: 1.25rem; height: 150px; background:  url(images/banners/banner-mono.png) no-repeat center bottom; position:relative; background-color: #d3d3d3; border-bottom: 5px solid; line-height: 1; }
+
+
+section.careerspage {margin-top: 20px; margin-bottom: 30px; padding: 0; }
+section.careersapps aside {width: 50%; float: left; padding-top: 30px; padding-bottom: 30px; color: #595959; text-align: center; margin: 0 auto;}
+section.popular aside {width: 50%; float: right; padding-top: 30px; padding-bottom: 30px; color: #595959; text-align: center; margin: 0 auto;}
+section.border { border-style: solid; border-radius: 25px; display: inline-block; padding-top: 25px; padding-bottom: 25px;  position: relative; box-shadow: 7px 7px 30px 0px rgba(50, 50, 50, 0.75); }
+
+section.soctable{padding-top: 30px; padding-bottom: 30px;}
+
+section.contactpage {margin-top: 20px; margin-bottom: 30px; padding: 0; }
+section.contactus aside {width: 50%; float: left; padding-top: 30px; padding-bottom: 30px; color: #595959; margin: 0 auto; text-align: center; margin: 0 auto;}
+section.survey aside {width: 50%; float: right; padding-top: 30px; padding-bottom: 30px; color: #595959; text-align: center; margin: 0 auto;}
+section.survey p {padding-bottom: 150px;}
+
+
+section.loginpage {margin-top: 20px; margin-bottom: 30px; padding: 0; }
+section.login aside {width: 50%; padding-top: 30px; padding-bottom: 30px; color: #595959; margin: 0 auto; text-align: center;}
+
+section.aboutpage {margin-top: 20px; margin-bottom: 30px; padding:0;}
+section.aboutus aside {width: 50%; float: left; padding-top: 30px; padding-bottom: 30px; color: #595959; text-align: center; margin: 0 auto;}
+section.whatdo aside {width: 50%; float: right; padding-top: 30px; padding-bottom: 30px; color: #595959; text-align: center; margin: 0 auto;}
+section.whatdo p { padding-bottom: 65px;}
+
+	table, thead, tbody, th, td, tr { 
+	display: block; 
+	}
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	td { 
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+	td:before { 
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+
+	section.mobiledisplay td:nth-of-type(1):before { content: "Search Term"; }
+	section.mobiledisplay td:nth-of-type(2):before { content: "Value"; }
+
+	section.contactsinfo td:nth-of-type(1):before { content: "ID"; }
+	section.contactsinfo td:nth-of-type(2):before { content: "Forename/Role"; }
+	section.contactsinfo td:nth-of-type(3):before { content: "Surname/Useful"; }
+	section.contactsinfo td:nth-of-type(4):before { content: "Email/Why"; }
+	section.contactsinfo td:nth-of-type(5):before { content: "Message/Uses"; }
+	section.contactsinfo td:nth-of-type(6):before { content: "Comment"; }
+
+	td:nth-of-type(1):before { content: "SOC Code"; }
+	td:nth-of-type(2):before { content: "Job Title"; }
+	td:nth-of-type(3):before { content: "Description"; }
+	td:nth-of-type(4):before { content: "Qualifications"; }
+	td:nth-of-type(5):before { content: "Tasks"; }
+}
+
+
+@media screen and (max-width: 1050px) {
+
+h1 { font-size: 2.4em;  }
+header { margin-bottom: 20px; }
+
+section.main article { padding-left: 400px; background-size: 375px auto; }
+section.otherservices article { padding-right: 400px; background-size: 375px auto; }
+section.student article { padding-left: 400px; background-size: 375px auto; }
+
+nav > ul {padding-left: 50px; font-size:10px;}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+	h1 { font-size: 2.2em; padding-bottom: 0; }
+	header { height: 300px; }
+	
+	section.main article { padding-left: 325px; background-size: 300px auto; }
+	section.otherservice article { padding-right: 325px; background-size: 300px auto; }
+	section.student article { padding-left: 325px; background-size: 300px auto; }
+}
+
+
+@media screen and (max-width: 780px) {
+	
+	#chart-1 {display:none; position:static;}
+	
+	h1 { font-size: 1.8em; }
+	h2 { font-size: 1.4em; }
+	h3 { font-size: 1.1em; }
+	a.btn { font-size: 1em; }
+	
+	header {height: 325px; padding-top: 100px;}
+	header h1 { width: 145px; height: 60px; }
+	
+	#mobiledisplay { display: block; 
+			 position: static;
+		       }
+
+	section.popular p {padding-bottom: 28px;}
+	section.contactus p {padding-bottom: 8px;}
+	section.survey p {padding-bottom: 0px;}
+	section.whatdo p {padding-bottom: 132px;}
+}
+
+@media screen and (max-width: 650px) {
+
+		h1 { font-size: 1em; }
+		h3 { margin-bottom: 0px; }
+		a.btn { font-size: .9em; }
+		nav > ul {padding-left: 0px; font-size:11px;}
+		nav ul li a{display: block; width: 75%;}
+		
+		section.surveypage {padding-top: 150px; }
+		section.contactsinfo {padding-top: 150px; }
+		#mobiledisplay { padding-top: 150px; }
+
+		header { height: 160px; background-image: url (); background-position: left top; padding-top: 40px;  }
+		section.banner {margin: 0 auto;  width: 100%; padding-bottom: 0px; background:  url(images/banners/banner-mono-tiny.jpg) no-repeat center bottom; position:relative; background-color: #d3d3d3; }
+		
+		section.careerspage {margin-top: 20px; margin-bottom: 30px; padding: 125px 20px 0px 0px; }
+		section.careersapps aside {position:relative; width: 100%; float: right; text-align: left; margins: 8px 20px 0 8px; padding: 5px 0px 10px 85px; background-size: 50px 50px; }
+		section.popular aside {position:relative; width: 100%; float: right; text-align: left; margins: 8px 20px 0 8px; padding: 5px 0px 10px 85px; background-size: 50px 50px;  }
+
+		section.soctable {margin-top: 20px; margin-bottom: 30px; padding: 125px 20px 0px 0px;}
+		
+		section.contactpage {margin-top: 20px; margin-bottom: 30px; padding: 125px 20px 0px 0px;  }
+		section.contactus aside {position:relative; width: 100%; float: right; text-align: left; margins: 8px 20px 0 8px; padding: 5px 0px 10px 85px; background-size: 50px 50px; }
+		section.survey aside {position:relative; width: 100%; float: right; text-align: left; margins: 8px 20px 0 8px; padding: 5px 0px 10px 85px; background-size: 50px 50px;  }
+		
+		
+		section.loginpage {margin-top: 20px; margin-bottom: 30px; padding: 125px 20px 0px 0px;  }
+		section.login aside {position:relative; width: 100%; float: right; text-align: left; margins: 8px 20px 0 8px; padding: 5px 0px 10px 85px; background-size: 50px 50px; }
+
+		section.aboutpage {margin-top: 20px; margin-bottom: 30px; padding: 125px 20px 0px 0px;  }
+		section.aboutus aside {position:relative; width: 100%; float: right; text-align: left; margins: 8px 20px 0 8px; padding: 5px 0px 10px 85px; background-size: 50px 50px; }
+		section.whatdo aside {position:relative; width: 100%; float: right; text-align: left; margins: 8px 20px 0 8px; padding: 5px 0px 10px 85px; background-size: 50px 50px;  }
+			
+		section.main article { padding: 225px 20px 0px 0px; background-size: 280px auto; background-position:top; min-height: initial;}
+		section.otherservices article { padding: 225px 20px 0px 0px; background-size: 280px auto; background-position:top; min-height: initial;  }
+		section.student article { padding: 225px 20px 0px 0px; background-size: 280px auto; background-position:top; min-height: initial; }
+		
+		section.form {margin-top: 20px; margin-bottom: 30px; padding: 150px 20px 0px 0px;  }
+		section.survey {margin-top: 20px; margin-bottom: 30px; padding: 150px 20px 0px 0px;  }
+}
+
+@media screen and (max-width: 425px) {
+			
+			header {height: 130px;}
+}
+

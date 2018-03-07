@@ -1,0 +1,41 @@
+<div class="container">
+<div class="row">
+<div class="col-sm-12">
+<section id="save-text">
+<h2>Saving Text</h2>
+<form onsubmit="return saveText(this, $('#fname').val(), $('#textInput').val(), 'text/plain;charset=utf-8')">
+<span class="loadblock" class="pull-right">
+<span class="file-details"></span><input type="file" id="load-text-file" name="load-text-file" />
+</span>
+<textarea class="input form-control" id="textInput" rows="5" placeholder="Type some text here, then enter a file name and click &quot;Save&quot;."></textarea>
+<br>
+<div>
+<span class="saveblock" class="pull-right">
+<input id="fname" type="text" placeholder="filename"></input><span>.txt</span>
+<button class="btn btn-sm btn-success" type="submit" role="button">Save</button>
+</span>
+</div>
+</form>
+</section>
+</div>
+</div>
+<div class="row">
+<div class="col-sm-12">
+<section id="save-html">
+<h2>Saving HTML</h2>
+<form onsubmit="return saveText(this, $('#fname-html').val(), $('#htmlInput').html(), 'text/html;charset=utf-8')">
+<div class="loadblock" class="pull-right">
+<span class="file-details"></span><input type="file" id="load-html-file" name="load-html-file" />
+</div>
+<textarea class="input form-control" id="htmlInput" rows="5" placeholder="Type some text here, then enter a file name and click &quot;Save&quot;."></textarea>
+<br>
+<div class="saveblock" class="pull-right">
+<input id="fname-html" type="text" placeholder="filename"></input><span>.html</span>
+<button class="btn btn-sm btn-success" type="submit" role="button">Save</button>
+</form>
+</section>
+</div>
+</div>
+</div>
+</div>
+<script src="js/save.js"></script>

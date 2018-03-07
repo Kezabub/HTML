@@ -1,0 +1,55 @@
+<a href="#buttonsthathidestuff" class="btn btn-default btn-lg history" id="hideimages">Hide Images</a>
+<a href="#buttonsthathidestuff" class="btn btn-default btn-lg history" id="hidevideos">Hide Videos</a>
+<a href="#buttonsthathidestuff" class="btn btn-default btn-lg history" id="hidetable">Hide Table</a>
+<br>
+<a href="#buttonsthathidestuff" class="btn btn-default btn-lg history" id="showimages" style="display:none">Show Images</a>
+<a href="#buttonsthathidestuff" class="btn btn-default btn-lg history" id="showvideos" style="display:none">Show Videos</a>
+<a href="#buttonsthathidestuff" class="btn btn-default btn-lg history" id="showtable" style="display:none">Show Table</a>
+<script>
+$(document).ready(function(){
+  $("#hideimages").click(function() {
+  $("#gallery").hide();
+  $("#hideimages").hide();
+	$("#showimages").show();
+  });
+
+  $("#hidevideos").click(function() {
+  $("#videogallery").hide();
+  $("#hidevideos").hide();
+	$("#showvideos").show();
+  });
+
+  $("#hidetable").click(function() {
+    $("#filesearch").hide();
+    $("#filestable").hide();
+    $("#hidetable").hide();
+    $("#pdfviewer").hide();
+    $("#startquiz").hide();
+    $("#showtable").show();
+    $("#quiz").hide();
+    $("#hidequiz").hide();
+  });
+
+   $("#showimages").click(function() {
+    $("#gallery").show();
+    $("#showimages").hide();
+	$("#hideimages").show();
+  });
+  
+  $("#showvideos").click(function() {
+    $("#videogallery").show();
+    $("#showvideos").hide();
+	$("#hidevideos").show();
+  });
+  $("#showtable").click(function() {
+    $("#filesearch").show();
+    $("#filestable").show();
+    $("#showtable").hide();
+    $("#pdfviewer").show();
+    $("#startquiz").show();
+    $("#hidequiz").show();
+    $("#quiz").show();
+	  $("#hidetable").show();
+  });
+});
+</script>

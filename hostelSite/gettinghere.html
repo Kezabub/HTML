@@ -1,0 +1,129 @@
+﻿<!DOCTYPE HTML>
+<html> 
+<head>
+   	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+<title>Hostel Homepage</title>
+<script
+			  src="http://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous">
+</script>
+<link href="styleSheet.css" rel="stylesheet" type="text/css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+function setupFormValidation() {
+	       $("#Survey").validate({
+                rules: {
+                    favourite: {required: true},
+                    howlikely: {required: true},
+                    food: {required: true},
+		    time: {required: true},
+                },
+                messages: {
+                    favourite: "Please select your favourite facility",
+                    howlikely: "Please select how likely you are to recommend us",
+                    food: "Please select how much you enjoyed the food",
+                    time: "Please state whether you enjoyed your time at the hostel",
+                },
+                submitHandler: function(form) {
+                    form.submit();
+                }
+            });
+ }
+$(document).ready(function($) {
+         setupFormValidation();
+    });
+</script>
+</head> 
+<body>
+<div id="page">
+<header>
+</header>
+<section class="gps">
+<p>This is where we are located</p>
+   <div id="map" style="width: 400px; height: 300px">
+
+   <iframe src=			"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2238.7988208492384!2d-4.252992784044376!3d55.86615679071111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4888441f6d37e73b%3A0xe44f66a88fe29ff5!2sGlasgow+Caledonian+University!5e0!3m2!1sen!2suk!4v1476434984115" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+   </div>
+</section>
+
+
+<br><br><br><br>
+
+
+<p>Visited the hostel already? Please fill out our quick travel survey</p>
+
+<form id="Survey" action="processInput2.php"  method="post">
+  <p><label for="favourite" class="textLabel">Please select your favourite facility:</label></p>
+  <select name="favourite">
+    <option value="Lounge">Lounge</option>
+    <option value="Kitchen">Kitchen</option>
+    <option value="Bedrooms">Bedrooms</option>
+    <option value="Outdoors">Outdoors</option>
+    <option value="Common Room">Room</option>
+  </select>
+  <br><br>
+  <p><label for="howlikely" class="textLabel">How Likely are you to recommend the hostel to a friend:</label></p>
+      <input type="radio" name="howlikely" value="Absolutely" checked> Absolutely<br>
+      <input type="radio" name="howlikely" value="Very Likely"> Very Likely<br>
+      <input type="radio" name="howlikely" value="Likely"> Likely<br>
+      <input type="radio" name="howlikely" value="Not Likely"> Not Likely<br>
+      <input type="radio" name="howlikely" value="Never"> Never<br>
+   <br><br>
+   <p><label for="food" class="textLabel">on a scale of 1 - 10, 1 (poor) 10 (amazing) how was the cafes food?:</label></p>
+      <input type="radio" name="food" value="1" checked> 1<br>
+      <input type="radio" name="food" value="2"> 2<br>
+      <input type="radio" name="food" value="3"> 3<br>
+      <input type="radio" name="food" value="4"> 4<br>
+      <input type="radio" name="food" value="5"> 5<br>
+      <input type="radio" name="food" value="6"> 6<br>
+      <input type="radio" name="food" value="7"> 7<br>
+      <input type="radio" name="food" value="8"> 8<br>
+      <input type="radio" name="food" value="9"> 9<br>
+      <input type="radio" name="food" value="10"> 10<br>
+      
+      <br><br>
+      <p><label for="transport" class="textLabel">What modes of transport did you use to reach the hostel:</label></p>
+  	  <input type="checkbox" name="vehicle[]" value="Walking " checked> I walked<br>
+  	  <input type="checkbox" name="vehicle[]" value="Car "> I used a car<br>
+      <input type="checkbox" name="vehicle[]" value="Bus "> I used a bus<br>
+      <input type="checkbox" name="vehicle[]" value="Train "> I used a train<br>
+      
+      <br><br>
+ 	  <p><label for="time" class="textLabel">Did you enjoy your time at the hostel?:</label></p>
+    	 <input type="radio" name="time" value="yes" checked> yes<br>
+         <input type="radio" name="time" value="no"> no<br>
+ <br><br>
+  <p><label for="why" class="textLabel">Why?:</label></p>
+  <p> <textarea rows="4" name="why" cols="50" required>
+        </textarea>
+  </p>
+  <p><label for="comments" class="textLabel">Additional Comments ?:</label></p>
+  <p> <textarea rows="4" name="comments" cols="50" required>
+        </textarea>
+  </p>
+<br><br>
+   <p><input type="submit" name="submit" id="submit" value="Submit" /></p>
+<br><br>
+</form>
+<footer>
+<section class="weather">
+<p><script src="weatherscript.js"></script></p>
+</section>
+</footer>
+<nav>
+  <ul>
+    <li><a href="index.html">Home Page</a></li>
+    <li><a href="facilities.html">Facilities</a> </li>
+    <li><a href="prices.html">Prices</a></li>
+    <li><a href="cafe.html">Cafe</a></li>
+    <li><a href="#">Getting Here</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</nav>
+</nav>
+</div>
+</body> 
+</html>

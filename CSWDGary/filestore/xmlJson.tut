@@ -1,0 +1,50 @@
+Basic tutorial info on XML and JSON usage.
+
+XML basics
+XML is a standard for defining markups. XML-based markup is used to describe data that is represented through tags that need not be predefined. XML is highly extensible because you can invent new tags as needed. Listing 1 shows an example of a data structure represented in XML.
+
+Listing 1. A simple example of XML data
+                
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contacts>
+    <contact id="1">
+        <name>John Doe</name>
+        <phone>123-456-7890</phone>
+        <address>
+            <street>123 JFKStreet</street>
+            <city>Any Town</city>
+            <state>Any State</state>
+            <zipCode>12345</zipCode>
+        </address>
+    </contact>
+</contacts>
+	
+
+
+The first line is the XML declaration that specifies the XML version and character encoding used. A root element <contacts> follows, which encloses several child elements. The nested structure of the child elements combines to define the data for a contact. Notice that the <address> element includes child elements that form a subtree structure under the <contact> element. XML also allows the start tags to have attributes that provide additional information about the elements. The <contact> element has an attribute that assigns an id attribute to that element. The XML document is completed with a close tag, </contacts>, for the root element.
+JSON basics
+JSON is not a markup language like XML. Instead, it is a text-based data interchange format. It is the data syntax of JavaScript objects and arrays. In short, JSON allows you to represent data simply. For example, you enclose objects within curly braces ({}), and you enclose arrays within square brackets ([]). A piece of JavaScript code can readily consume JSON-encoded data without going through any special parsing or additional data transformation. Listing 2 shows a data structure represented in JSON format.
+
+Listing 2. A simple example of JSON data
+                
+{
+   "contacts" : {
+      "contact" : {
+         "@attributes" : {
+            "id" : "1"
+         }, 
+         "name" : "John Doe", 
+         "phone" : "123-456-7890", 
+         "address" : {
+            "street" : "123 JFK Street", 
+            "city" : "Any Town", 
+            "state" : "Any State", 
+            "zipCode" : "12345"
+         }
+      }
+   }
+}
+	
+
+You can see that every piece of data shown in the XML example in Listing 1 is also present in the JSON example in Listing 2. However, the difference is how JSON encodes the data using JavaScript object and array data types. The data structure starts with an object that includes a property named "contacts", which itself is an object. This object has one property named "contact", which is also an object. This object includes several properties that constitute the details for a contact. Notice that the "contact" object includes another (nested) object named "address", which describes the details of an address. As with XML, JSON-formatted data is self-describing, so both humans and machines can read it easily.
+

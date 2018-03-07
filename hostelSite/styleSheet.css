@@ -1,0 +1,220 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700);
+
+body { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 300; color: #555; margin: 0; padding: 0; background-color: #d3d3d3 }
+
+#page { max-width: 1200px; margin: 0 auto; position: relative; }
+
+a.btn {font-size: 1.2em; text-decoration: none; color: #fff; border: 1px solid #fff; padding: 4px 15px; transition: background-color .5s; }
+a.btn:hover { background-color: rgba(0,0,0,.3); }
+
+nav {
+	background-color: rgba(0,0,0,.65);
+        position: absolute;
+        top: 0px; left 0px;
+        padding: 50px 0 0 0
+        width: 100%;
+}
+
+nav::after { content:'': display: block; clear: both; }
+
+nav ul { list-style: none; margin: 0; padding: 0; }
+
+nav ul li:hover {background-color: #cc6633; }
+
+nav ul li:hover > ul { display: block; }
+
+nav ul li a { display: inline-block;
+              padding: 10px 20px;
+              text-decoration: none;
+              width: 125px;
+              position:relative;
+            } 
+
+nav ul li a:hover {background-color: ##cc6633; }
+
+nav ul ul { position: absolute; top: 100%; background-color: ##cc6633; display: none; }
+
+nav ul ul li { position: relative; }
+
+nav ul ul ul { left: 100%; top:0px; }
+
+nav > ul { padding-left: 250px; padding-right: 250px; float: center; text-align: center; }
+
+nav > ul > li { float: left; }
+
+nav > ul > li > a { width: auto; padding: 10px 20px 15px 20px }
+
+
+
+h1 { margin: 0 0 1em 0; font-size: 2.8em; font-weight: 700; }
+h2 { margin: 0 0 .5em 0; font-size: 1.6em; font-weight: 700; line-height: 1.1em; }
+h3 { margin: 0 0 .5em 0; font-size: 1.3em; font-weight: 700; }
+h4 { margin: 0 0 1.5em 0; font-size: 1em; font-weight: 700; }
+
+p { margin: 0 0 1em 0;}
+
+a { color: #007eff; }
+a:visited {color: #65b1ff }
+
+section { padding: 0 30px; }
+
+section.included { padding-top: 30px; padding-bottom: 30px; padding-left: 5px; padding-right: 5px;  }
+
+section.prices {  margin-top: 20px; margin-bottom: 30px; padding: 0;}
+section.prices aside { width: 33%; float: left; text-align: center; }
+
+section.cancel { padding-top: 375px; padding-bottom: 30px; padding-left: 5px; padding-right: 5px;  }
+
+section.facilities {  margin-top: 20px; margin-bottom: 30px; padding: 0;}
+section.facilities aside { width: 14%; float: left; text-align: center; color: #cc6633}
+
+section.facilities .content { margin: 15px; background: no-repeat center top; }
+
+section.cafe { background: url(images/hostel/cafe.jpg) no-repeat center top; padding-top: 295px; padding-right: 1px; padding-left: 1px;  }
+section.shop { background: url(images/hostel/outside.jpg) no-repeat center top; padding-top: 295px; padding-right: 1px; padding-left: 1px;   }
+section.parking { background: url(images/hostel/carparking) no-repeat center top; padding-top: 295px; padding-right: 1px; padding-left: 1px;   }
+section.catering { background: url(images/hostel/cooking.jpg) no-repeat center top; padding-top: 295px; padding-right: 1px; padding-left: 1px;   }
+section.lounge { background: url(images/hostel/commonroom.jpg) no-repeat center top; padding-top: 295px; padding-right: 1px; padding-left: 1px;  }
+section.internet { background: url(images/hostel/internet) no-repeat center top; padding-top: 295px; padding-right: 1px; padding-left: 1px;  }
+section.washing { background: url(images/hostel/washing.jpg) no-repeat center top; padding-top: 295px; padding-right: 1px; padding-left: 1px;  }
+
+section.facilities aside h3 a { color: #000; text_decoration: none; }
+section.facilities aside h3 a:hover { text-decoration: underline; }
+
+section.info { padding-top: 80px; padding-bottom: 30px; padding-left: 5px; padding-right: 5px;  }
+
+section.checkin { padding-top: 300px; padding-bottom: 30px; padding-left: 5px; padding-right: 5px;  }
+
+section.main { background-color: #cc6633; padding-top: 30px; padding-bottom: 30px; padding-left: 5px; padding-right: 5px; color: #fff; }
+section.main article { padding: 0 20px 0 515px; background: url(images/hostel/outside.jpg) no-repeat 0 5px; min-height:220px; }
+
+section.wildlife { background-color: #cc6633; padding-top: 30px; padding-bottom: 30px; padding-left: 5px; padding-right: 5px; color: #fff; }
+section.wildlife article { padding: 0 515px 0 20px; background:  url(images/wildlife/otteredit.jpg) no-repeat 0 5px; background-position: right; min-height:220px;}
+
+section.no-mobile { background-color: #cc6633; padding-top: 30px; padding-bottom: 30px; padding-left: 5px; padding-right: 5px; color: #fff; }
+section.no-mobile article { padding: 0 20px 0 515px; background: url(images/views/view2edit.jpg) no-repeat 0 5px; min-height:220px; }
+
+section.foods { padding-bottom:50px; margin-top: 20px; margin-bottom: 30px; padding: 0;}
+
+section.foods a {width: 50%; float: left; text-align center; }
+
+
+
+header { height 430px; background: #d3d3d3; padding-top: 80px; text-align: center; float: center; color: #cc6633;  }
+section.banner { padding-bottom: 60px; height: 150px; background:  url(images/banners/banner_white.jpg) no-repeat center bottom; position:relative; background-color: #d3d3d3; }
+
+section.gps { padding-bottom: 75px; }
+
+
+
+
+
+@media screen and (max-width: 1050px) {
+
+h1 { font-size: 2.4em; }
+header { margin-bottom: 20px; }
+section.banner { left: 56%; }
+
+section.main article { padding-left: 400px; background-size: 375px auto; }
+section.wildlife article { padding-right: 400px; background-size: 375px auto; }
+section.no-mobile article { padding-left: 400px; background-size: 375px auto; }
+
+nav > ul {padding-left: 50px; font-size:10px;}
+section.banner {display: none; top: 120px; left: 48%; background-image:url(); }
+
+}
+
+
+@media screen and (max-width: 825px) {
+
+	h1 { font-size: 2.2em; }
+	header { height: 300px; }
+	
+	
+	section.main article { padding-left: 325px; background-size: 300px auto; }
+	section.wildlife article { padding-right: 325px; background-size: 300px auto; }
+	section.no-mobile article { padding-left: 325px; background-size: 300px auto; }
+
+	section.foods { position: static; width: 100%; float: none; text-align: left; margins: 8px 20px 8px 0; }
+}
+
+@media screen and (max-width: 780px) {
+
+	h1 { font-size: 1.8em; }
+	h2 { font-size: 1.4em; }
+	h3 { font-size: 1.1em; }
+	a.btn { font-size: 1em; }
+	
+	header h1 { width: 145px; height: 60px; }
+	section.banner {top: 140px; left: 40%; }
+	
+	section.included { margin-top: 10px; margin-bottom: 10px;}
+	section.prices { margin-top: 10px; margin-bottom: 10px;}
+	section.prices aside { background-size: 55px 55px; padding-top: 60px; }
+	section.cancel { margin-top: 10px; margin-bottom: 10px;}
+	section.facilities {  margin-top: 10px; margin-bottom: 10px;}
+    	section.facilities aside { width: 100%; float: none; text-align: left; margins: 8px 20px 8px 0; padding: 5px 0px 10px 85px; background-size: 50px 50px; background-position: 20px 5px;;}
+	section.info { margin-top: 10px; margin-bottom: 10px; }
+	section.checkin { margin-top: 10px; margin-bottom: 10px;  }
+	section.checkin aside { background-size: 55px 55px; padding-top: 60px; }
+	
+	section.cafe { background: url(url(images/hostel/cafe.jpg)  }
+	section.shop { background: url(url(images/hostel/outside.jpg)  }
+	section.parking { background: url()    }
+	section.catering { background: url(url(images/hostel/cooking.jpg)   }
+	section.lounge { background: url(url(images/hostel/commonroom.jpg)   }
+	section.internet { background: url()  }
+	section.washing { background: url(url(images/hostel/washing.jpg)   }
+	section.foods a { width: 100%; float: none; text-align: left; margins: 8px 20px 8px 0; padding: 5px 0px 10px 85px; background-size: 50px 50px; background-position: 20px 5px; }
+
+	header {height: 325px; padding-top: 100px;}
+}
+	
+@media screen and (max-width: 650px) {
+		
+		h1 { font-size: 1em; }
+		h3 { margin-bottom: 0px; }
+		a.btn { font-size: .9em; }
+                
+		header { height: 160px; background-image: url (); background-position: left top;  }
+		
+		
+		
+		section.prices aside { width: 100%; float: none; text-align: left; margins: 8px 20px 8px 0; padding: 5px 0px 10px 85px; background-size: 50px 50px; background-position: 20px 5px;}
+		section.facilities aside { width: 100%; float: none; text-align: left; margins: 8px 20px 8px 0; padding: 5px 0px 10px 85px; background-size: 50px 50px; background-position: 20px 5px;}
+		section.checkin aside { width: 100%; float: none; text-align: left; margins: 8px 20px 8px 0; padding: 5px 0px 10px 85px; background-size: 50px 50px; background-position: 20px 5px; }
+		
+		
+		section.main article { padding: 225px 20px 0px 0px; background-size: 280px auto; background-position:top; min-height: initial;}
+		section.wildlife article { padding: 225px 20px 0px 0px; background-size: 280px auto; background-position:top; min-height: initial;  }
+		section.no-mobile article { padding: 225px 20px 0px 0px; background-size: 280px auto; background-position:top; min-height: initial; }
+}
+
+nav { position: static; width: auto; padding: 20px 15px; background-color: #cc6633; }
+		
+		nav ul,
+                nav ul ul,
+                nav ul ul ul { display: block; position: static;}
+
+                nav > ul { padding: 0;}
+		nav > ul > li { float: none; margin-top: 25px; }
+
+		nav ul li:hover {background: none;}
+         	nav ul li a {width:auto; display: block; margin: 8px 10px; padding: 8px 15px; border: 1px solid rgba(255,255,255,.25);}
+		nav ul li a:hover {background-color; rgba(255,255,255,.2); }
+		
+		nav ul ul { background: none; }
+                nav ul ul li a { margin-left: 30px;}
+		nav ul ul ul li a { margin-left: 60px;}
+}
+
+
+@media screen and (max-width: 425px) {
+			
+			header {height: 110px;}
+}
+
+	
+
+
+
